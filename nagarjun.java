@@ -1,7 +1,15 @@
 class nagarjun {
+    boolean installMyKickStarter = false;
+
+    nagarjun() {
+        installMyKickStarter = true;
+        System.out.println("I am in constructor");
+    }
+
     public static void main(String args[]) {
         // rajesh rj = new rajesh();
         // System.out.println("hai nagarjun/are you going to " + rj.gotoMysore());
+
         Office office1 = new Office();
         System.out.println(office1.captureAttendance(false));
 
@@ -15,6 +23,7 @@ class nagarjun {
 }
 
 class rajesh {
+
     public String gotoMysore() {
         return "Mysore";
     }
@@ -31,6 +40,7 @@ class Office {
 
     public void CheckIfBikeHasKickStarter(boolean isKickStarterAvailable, String nameOfThePerson) {
 
+        nagarjun n = new nagarjun();
         System.out.println("--------");
         System.out.println(nameOfThePerson + ":" + isKickStarterAvailable);
         System.out.println("--------");
