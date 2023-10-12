@@ -13,6 +13,7 @@ public class TrafficMain {
         System.out.println("The light duration is: " + light.getDuration());
         light.setDuration(20);
         System.out.println("The light duration is now: " + light.getDuration());
+
     }
 
 }
