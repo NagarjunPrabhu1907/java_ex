@@ -18,7 +18,6 @@ class rectangle extends Shape {
         super(x, y);
     }
 
-    @Override
     void area() {
         double result = x * y;
         System.out.println("Area of rectangle : " + result);
@@ -51,6 +50,7 @@ class triangle extends Shape {
 
 class result_shape {
     public static void main(String[] args) {
+
         Shape obj; // reference variable
 
         obj = new rectangle(5.0, 6.0);
