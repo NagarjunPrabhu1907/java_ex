@@ -10,7 +10,7 @@ class BankAccount {
     public BankAccount(String accountNumber, String accountHolder) {
         this.accountNumber = accountNumber;
         this.accountHolder = accountHolder;
-        this.balance = 0.0;
+        this.balance = 0.0;  
     }
 
     public void deposit(double amount) {
