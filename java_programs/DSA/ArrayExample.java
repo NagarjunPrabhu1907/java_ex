@@ -5,21 +5,21 @@ import java.util.Scanner;
 public class ArrayExample {
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);  //reads input frm keyboard
 
 
 
-        int row = sc.nextInt();
+        int row = sc.nextInt();   //store i/p at row
 
-        int col = sc.nextInt();
+        int col = sc.nextInt();   //stores another i/p at col
 
-        int target = sc.nextInt();
+        int target = sc.nextInt();  //stores another i/p at target
 
-        int[][] array = new int[row][col];
+        int[][] array = new int[row][col];  //2d array
 
 
 
-        for (int i = 0; i < row; i++) {
+        for (int i = 0; i < row; i++) {   //iteration
 
             for (int j = 0; j < col; j++) {
 
@@ -29,15 +29,9 @@ public class ArrayExample {
 
         }
 
-        int count=0;
+        int count=0;         
 
-        
-
-
-
-        
-
-        for (int i=1;i<row-1;i++){
+        for (int i=1;i<row-1;i++){       //
 
             for (int j=0;j<col;j++){
 
