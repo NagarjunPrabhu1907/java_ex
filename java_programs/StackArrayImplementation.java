@@ -56,7 +56,8 @@ public class StackArrayImplementation {
         st.push(22);
         st.push(333);
         st.push(56);
-        st.push(1111);
+        
+        
 
         System.out.println(st.isEmpty());
         System.out.println(st.isFull());
@@ -64,10 +65,6 @@ public class StackArrayImplementation {
         System.out.println(st.peek());
         System.out.println(st.pop());
         st.display();;
-
-
-
-
     }
     
 }
