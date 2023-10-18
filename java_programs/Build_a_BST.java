@@ -45,6 +45,7 @@ public class Build_a_BST {
         for (int i = 0; i < value.length; i++) {
             root = buildBST(root, value[i]);
         }
+        
 
         printTree(root);
     }
