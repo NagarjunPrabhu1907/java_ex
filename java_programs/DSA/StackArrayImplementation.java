@@ -1,4 +1,4 @@
-package java_programs;
+package java_programs.DSA;
 
 public class StackArrayImplementation {
     int top;
