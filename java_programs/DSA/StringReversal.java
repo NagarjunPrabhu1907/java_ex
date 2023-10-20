@@ -17,7 +17,7 @@ public class StringReversal {
             char temp =charArray[left];
             charArray[left]=charArray[right];
             charArray[right]=temp;
-            left++;
+            left++ ;
             right--;
 
         }
