@@ -6,13 +6,13 @@ public class SelectionSort {
     public static void main(String[] args) {
         int[] arr = {4, 2, 1, 5};
         selectionSort(arr);
-        System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr)); //to print
     }
 
     static void selectionSort(int[] arr){
 
         for(int i=0; i<arr.length; i++){
-            int last = arr.length - i - 1;
+            int last = arr.length - i - 1;  // sorting elem from end
             int maxIndex = findMax(0, last, arr);
             swap(maxIndex, last, arr);
         }
